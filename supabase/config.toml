@@ -1,1 +1,2 @@
-project_id = "ovgoazraabjxmqtmzddo"
+# Nunca coloque o valor do project_id hardcoded aqui. Use sempre a variável de ambiente.
+project_id = "${VITE_SUPABASE_PROJECT_ID}"
