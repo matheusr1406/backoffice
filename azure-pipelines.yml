@@ -1,0 +1,16 @@
+trigger:
+  tags:
+    include:
+      - 'v*.*.*-rc*'
+
+# no PR triggers
+pr: none
+
+resources:
+  repositories:
+    - repository: repo_devops
+      type: git
+      name: NearByMe-devops
+
+stages:
+- template: pipeline/azure/nearbyme-backoffice/azure-pipelines.yml@repo_devops
