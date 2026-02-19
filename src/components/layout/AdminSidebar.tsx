@@ -24,7 +24,6 @@ const menuItems = [
   { title: "Equipe Backoffice", icon: Shield, path: "/team" },
   { title: "Comunidade", icon: MessageSquare, path: "/comunidade" },
   { title: "Cupons", icon: Ticket, path: "/cupons" },
-  { title: "Configurações", icon: Settings, path: "/settings" },
 ];
 
 export function AdminSidebar() {
